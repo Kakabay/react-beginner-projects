@@ -21,6 +21,11 @@ const questions = [
     ],
     correct: 2,
   },
+  {
+    title: 'Кто такой Мейлис?',
+    variants: ['Talyp', 'Bet oglan', 'Flutter senior developer'],
+    correct: 2,
+  },
 ];
 
 function Result({ correct, setCorrect, setStep }) {
